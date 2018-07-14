@@ -1,8 +1,23 @@
-# Blank Theme - Jekyll
-An almost empty "starter theme" for Jekyll projects.
+Website for the Undergraduate Consulting Club at Carnegie Mellon University
 
-Most themes I see say "starter theme", but they're filled with stupid SASS grids and shit. I made this as the lowest common denominator for almost all developers. 
+Designed and built by Sean Park
 
-It's set up for SASS, meta tags, favicons, a home page, etc. Everything else is up to you.
+--
 
-Now start building some dope-ass shit, playboy.
+# How to serve website locally
+
+Insert content here.
+
+--
+
+# How to post on blog
+
+Insert content here
+
+
+--
+
+Built on top of a blank Jekyll theme by Garrett Boatman: https://github.com/garrettboatman/Blank-Theme-Jekyll
+
+--
+
