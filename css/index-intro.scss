@@ -1,0 +1,49 @@
+---
+---
+
+@import 'variables';
+
+#index-intro {
+	display: flex;
+
+	.index-intro-col {
+		flex: 1;
+		text-align: right;
+	}
+
+	#index-intro-left {
+		
+		h1 {
+			font-size: 3vw;
+			margin-bottom: 3vw;
+		}
+
+		.card {
+			margin-right: 0;
+		}
+	}
+
+	#index-intro-right {
+		text-align: left;
+	}
+
+	.card {
+		padding: 4vw 3vw 2vw 3vw;
+		margin: 0 3vw 3vw 3vw;
+		border: 1px solid grey;
+
+		img {
+			width: 100px;
+			margin: 0 auto;
+			margin-bottom: 1vw;
+		}
+
+		h2 {
+			color: $dark-teal;
+		}
+
+		p {
+			font-size: 1.5vw;
+		}
+	}
+}

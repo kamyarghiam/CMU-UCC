@@ -4,5 +4,10 @@
 @import 'variables';
 
 nav {
-	background: $dark-teal;
+	background: $light-teal;
+	padding: 3vw;
+
+	.logo img {
+		width: 50px;
+	}
 }

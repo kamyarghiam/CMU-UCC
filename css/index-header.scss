@@ -1,0 +1,18 @@
+---
+---
+
+@import 'variables';
+
+#index-header {
+	background: $light-teal;
+	color: white;
+	padding: 20vh 3vw;
+
+	header {
+		width: 60vw;
+		h1 {
+			font-size: 5vw;
+			padding-bottom: 3vh;
+		}
+	}
+}

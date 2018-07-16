@@ -1,14 +1,21 @@
 ---
 ---
 
-/*
-
-Keeping a separate scss file for each _includes file
-
-*/
-
-body{
+body, h1, h2, h3, h4, h5 {
 	margin: 0;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
+section {
+	padding: 8vw 12vw 5vw 12vw;
+}
+
+/*
+Keeping a separate scss file for each _includes file
+*/
+
 @import 'nav.css';
+@import 'footer.css';
+
+@import 'index-header.css';
+@import 'index-intro.css';
