@@ -1,13 +1,58 @@
 ---
 ---
 
-body, h1, h2, h3, h4, h5 {
+@import 'variables';
+
+body {
 	margin: 0;
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
 section {
-	padding: 8vw 12vw 5vw 12vw;
+	padding: 6vh 12vw 5vh 12vw;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+@mixin underlined($color) {
+	background: linear-gradient(to top, $color, $color, 100%,transparent 100%,transparent);
+	background-size: 100% 30%;
+	background-position: center 100%;
+	background-repeat: no-repeat;
+	transition: 0.3s all ease;
+
+	&:hover {
+		background-size: 100% 100%;
+	}
+}
+
+.teal-underlined {
+	@include underlined($lightest-teal);
+}
+
+// section dividers
+hr {
+	background: $light-teal;
+	border: none;
+	width: 10vw;
+	height: 3px;
+}
+
+p {
+	color: $text-grey;
+	line-height: 25px;
+}
+
+img {
+	height: auto;
 }
 
 /*
@@ -19,3 +64,6 @@ Keeping a separate scss file for each _includes file
 
 @import 'index-header.css';
 @import 'index-intro.css';
+
+@import 'projects-intro.css';
+@import 'projects-project-list.css';

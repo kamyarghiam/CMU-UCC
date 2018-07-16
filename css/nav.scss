@@ -5,9 +5,21 @@
 
 nav {
 	background: $light-teal;
-	padding: 3vw;
+	padding: 1vw;
+	color: white;
 
 	.logo img {
 		width: 50px;
+	}
+
+	#nav-links {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 1vw;
+
+		> a {
+			margin-left: 2vw;
+		}
 	}
 }

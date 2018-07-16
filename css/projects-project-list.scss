@@ -1,0 +1,69 @@
+---
+---
+
+@import 'variables';
+
+#project-list {
+	display: flex;
+
+	.project-list-col {
+		padding: 3vw;
+	}
+
+	.project-list-left {
+		flex: 1 0 0;
+		
+		h1 {
+			font-size: 3vw;
+			margin-bottom: 3vw;
+		}
+
+		.card {
+			margin-right: 0;
+		}
+	}
+
+	.project-list-right {
+		text-align: left;
+		flex: 2 0 0;
+		align-items: center;
+
+		.project {
+			flex: 1;
+			display: flex;
+			margin-bottom: 10vh;
+
+			img {
+				max-width: 200px;
+				max-height: 150px;
+				width: auto;
+				height: auto;
+			}
+
+			.project-info {
+				flex: 2 0 0;
+				margin-left: 3vw;
+			}
+		}
+	}
+
+	.card {
+		padding: 4vw 3vw 2vw 3vw;
+		margin: 0 3vw 3vw 3vw;
+		border: 1px solid $border-grey;
+
+		img {
+			width: 100px;
+			margin: 0 auto;
+			margin-bottom: 1vw;
+		}
+
+		h2 {
+			color: $dark-teal;
+		}
+
+		p {
+			font-size: 1.5vw;
+		}
+	}
+}
