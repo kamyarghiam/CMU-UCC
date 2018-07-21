@@ -13,6 +13,7 @@
 					<p>
 						{{ project.about }}
 					</p>
+					<a href="#">View Details >></a>
 				</div>
 			</div>
 		{% endfor %}
@@ -28,7 +29,7 @@
 		</h2>
 	</div>
 	<div class="project-list-col project-list-right">
-		{% for project in site.data.project_list.current_projects %}
+		{% for project in site.data.project_list.past_projects %}
 			<div class="project">
 				<img src="{{ site.baseurl }}/img/logo_teal.png">
 				<div class="project-info">
@@ -36,6 +37,7 @@
 					<p>
 						{{ project.about }}
 					</p>
+					<a href="#">View Details >></a>
 				</div>
 			</div>
 		{% endfor %}
