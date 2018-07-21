@@ -35,7 +35,7 @@ a {
 }
 
 .teal-underlined {
-	@include underlined($lightest-teal);
+	@include underlined($translucent-teal);
 }
 
 // section dividers
@@ -67,3 +67,4 @@ Keeping a separate scss file for each _includes file
 
 @import 'projects-intro.css';
 @import 'projects-project-list.css';
+@import 'projects-methodology.css';

@@ -1,3 +1,5 @@
+# Make sure that the client logo name matches the project's name.
+
 current_projects:
   - name: Platypus
     about: |
