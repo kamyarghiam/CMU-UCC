@@ -1,0 +1,17 @@
+# Make sure that each initiative has a PNG image in /img/initiatives with the same name
+
+initiatives:
+  - name: Consulting Academy
+    blurb: |
+      This is CA.
+
+
+      Yuh yuh
+
+      lol
+  - name: Consulting Week
+    blurb: |
+      This is CW.
+  - name: Case Competition
+    blurb: |
+      This is CC.

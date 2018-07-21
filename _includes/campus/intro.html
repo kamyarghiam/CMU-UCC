@@ -1,1 +1,23 @@
-campus intro
+<section id="page-intro">
+	<div class="page-intro-col" id="page-intro-left">
+		<h1>
+			<span class="teal-underlined">UCC at CMU</span>
+		</h1>
+		<h2>
+			Every year, UCC assists start-ups and non-profit organizations with solving various business problems.
+		</h2>
+		<p>
+			With members spanning across 5+ majors, UCC has the unique ability to work on projects ranging from marketing and strategy to technology and digital transformation.
+		</p>
+	</div>
+
+	<div class="page-intro-col" id="page-intro-right">
+		{% for initiative in site.data.campus_initiative_list.initiatives %}
+
+			<a href="#{{ initiative.name }}">
+				<span>>></span> {{initiative.name }}
+			</a>
+
+		{% endfor %}
+	</div>
+</section>

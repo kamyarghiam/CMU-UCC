@@ -1,0 +1,20 @@
+---
+---
+
+@import 'variables';
+
+.campus-initiative-list {
+
+	.initiative-section {
+		padding: 3vw;
+		display: flex;
+	}
+
+	img {
+		flex: 1 0 0;
+	}
+
+	.initiative-info {
+		flex: 2 0 0;
+	}
+}

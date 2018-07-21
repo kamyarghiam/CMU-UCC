@@ -1,1 +1,18 @@
-campus initiatives
+<section class="campus-initiative-list">
+	{% for initiative in site.data.campus_initiative_list.initiatives %}
+
+		<div id="{{ initiative.name }}" class="initiative-section">
+			<img src="{{ site.baseurl }}/img/{{ initiative.name }}.png"
+					 alt="{{ initiative.name }}" />
+			<div class="initiative-info">
+				<h1>
+					<span class="teal-underlined">
+						{{ initiative.name }}
+					</span>
+				</h1>
+				<p>{{ initiative.blurb }}</p>
+			</div>
+		</div>
+
+	{% endfor %}
+</section>
