@@ -5,24 +5,17 @@
 		</h2>
 	</div>
 	<div class="project-list-col project-list-right">
-		<div class="project">
-			<img src="{{ site.bas.baseurl }}/img/logo_teal.png">
-			<div class="project-info">
-				<h3>Project Name</h3>
-				<p>
-					Some description
-				</p>
+		{% for project in site.data.project_list.current_projects %}
+			<div class="project">
+				<img src="{{ site.baseurl }}/img/logo_teal.png">
+				<div class="project-info">
+					<h3>{{ project.name }}</h3>
+					<p>
+						{{ project.about }}
+					</p>
+				</div>
 			</div>
-		</div>
-		<div class="project">
-			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<div class="project-info">
-				<h3>Project Name</h3>
-				<p>
-					Some description
-				</p>
-			</div>
-		</div>
+		{% endfor %}
 	</div>
 </section>
 
@@ -35,14 +28,16 @@
 		</h2>
 	</div>
 	<div class="project-list-col project-list-right">
-		<div class="project">
-			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<div class="project-info">
-				<h3>Project Name</h3>
-				<p>
-					Some description
-				</p>
+		{% for project in site.data.project_list.current_projects %}
+			<div class="project">
+				<img src="{{ site.baseurl }}/img/logo_teal.png">
+				<div class="project-info">
+					<h3>{{ project.name }}</h3>
+					<p>
+						{{ project.about }}
+					</p>
+				</div>
 			</div>
-		</div>
+		{% endfor %}
 	</div>
 </section>
