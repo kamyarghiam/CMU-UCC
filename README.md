@@ -10,7 +10,7 @@ Insert content here.
 
 --
 
-# How to post on blog
+# How to configure project and member lists
 
 Insert content here
 
