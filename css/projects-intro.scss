@@ -4,7 +4,6 @@
 @import 'variables';
 
 #projects-intro {
-	display: flex;
 
 	.projects-intro-col {
 		padding: 3vw;
@@ -15,7 +14,7 @@
 	}
 
 	#projects-intro-left {
-		flex: 2 0 0;
+		width: 60%;
 		
 		h1 {
 			font-size: 3vw;
@@ -25,11 +24,6 @@
 		.card {
 			margin-right: 0;
 		}
-	}
-
-	#projects-intro-right {
-		text-align: left;
-		flex: 1 0 0;
 	}
 
 	.card {
