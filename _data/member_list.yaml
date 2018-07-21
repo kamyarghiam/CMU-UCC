@@ -5,20 +5,20 @@ members:
   - name: Sean Park
     role: President
     year: 2019
-    experience: Summer Scholar at Deloitte Digital, Software Engineer at MAYA BCG
+    experience: 
+      - Business Technology Analyst at Deloitte Digital
+      - Software Engineer at MAYA BCG
   - name: Andres Cano
     role: Vice President
     year: 2020
-    experience: Summer Scholar at Deloitte Digital, Software Engineer at MAYA BCG
+    experience:
+      - IBM shit
   - name: Jesse Lu
     role: Strategy Internal Development Lead
     year: 2019
-    experience: Summer Scholar at Deloitte Digital, Software Engineer at MAYA BCG
   - name: Arnav Gupta
     role: Tech Internal Development Lead
     year: 2019
-    experience: Summer Scholar at Deloitte Digital, Software Engineer at MAYA BCG
   - name: Ivori Liu
     role: Marketing Lead
     year: 2019
-    experience: Summer Scholar at Deloitte Digital, Software Engineer at MAYA BCG
