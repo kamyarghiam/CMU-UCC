@@ -1,7 +1,13 @@
 ---
 ---
 
+// todo: add mixins for transitions
+
 @import 'variables';
+
+* {
+	box-sizing: border-box;
+}
 
 body {
 	margin: 0;
@@ -66,6 +72,21 @@ img {
 	height: auto;
 }
 
+.button {
+	height: 30px;
+	min-width: 40px;
+	background: $light-teal;
+	color: white;
+	border: none;
+	transition: 0.3s all ease;
+	font-size: 1vw;
+	padding: 1vh 1vw;
+
+	&:hover {
+		background: $dark-teal;
+	}
+}
+
 /*
 Keeping a separate scss file for each _includes file
 */
@@ -81,3 +102,5 @@ Keeping a separate scss file for each _includes file
 
 @import 'projects-project-list.css';
 @import 'projects-methodology.css';
+
+@import 'contact-form.css';

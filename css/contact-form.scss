@@ -1,0 +1,36 @@
+---
+---
+
+@import 'variables';
+
+#contact-form {
+
+	form {
+		padding: 5vh 25%;
+
+		fieldset {
+			border: none;
+			margin: 0 auto;
+			padding: 10px 0;
+			display: block;
+			label {
+				display: block;
+				color: $light-teal;
+				margin-bottom: 5px;
+			}
+			input, textarea {
+				width: 100%;
+				min-height: 30px;
+				border: 1px solid $border-grey;
+			}
+
+			textarea {
+				min-height: 200px;
+			}
+		}
+
+		input[type="submit"] {
+			float: right;
+		}
+	}
+}
