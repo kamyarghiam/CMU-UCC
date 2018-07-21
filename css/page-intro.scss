@@ -3,10 +3,10 @@
 
 @import 'variables';
 
-#projects-intro {
+#page-intro {
 	display: flex;
 
-	.projects-intro-col {
+	.page-intro-col {
 		padding: 3vw;
 		h2, p:not(:last-child){
 			margin-top: 0;
@@ -14,7 +14,7 @@
 		}
 	}
 
-	#projects-intro-left {
+	#page-intro-left {
 		flex: 3 0 0;
 		
 		h1 {
@@ -27,7 +27,7 @@
 		}
 	}
 
-	#projects-intro-right {
+	#page-intro-right {
 		text-align: left;
 		flex: 1 0 0;
 		a {
@@ -36,26 +36,6 @@
 			span {
 				color: $bright-teal;
 			}
-		}
-	}
-
-	.card {
-		padding: 4vw 3vw 2vw 3vw;
-		margin: 0 3vw 3vw 3vw;
-		border: 1px solid grey;
-
-		img {
-			width: 100px;
-			margin: 0 auto;
-			margin-bottom: 1vw;
-		}
-
-		h2 {
-			color: $dark-teal;
-		}
-
-		p {
-			font-size: 1.5vw;
 		}
 	}
 }
