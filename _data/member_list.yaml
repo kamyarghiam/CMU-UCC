@@ -1,0 +1,19 @@
+# Make sure that the member's photo file name matches the member's name.
+# Make sure the member's photo is a square PNG.
+
+members:
+  - name: Sean Park
+    role: President
+    year: 2019
+  - name: Andres Cano
+    role: Vice President
+    year: 2020
+  - name: Jesse Lu
+    role: Strategy Internal Development Lead
+    year: 2019
+  - name: Arnav Gupta
+    role: Tech Internal Development Lead
+    year: 2019
+  - name: Ivori Liu
+    role: Marketing Lead
+    year: 2019

@@ -1,0 +1,23 @@
+---
+---
+
+@import 'variables';
+
+#member-list {
+	text-align: center;
+	#member-grid {
+		display: flex;
+		flex-wrap: wrap;
+		.member-card {
+			text-align: left;
+			flex: 1 0 22%;
+			max-width: 22%;
+			border: $border-grey;
+			margin: 3vh 1.5%;
+
+			img {
+				width: 90%;
+			}
+		}
+	}
+}

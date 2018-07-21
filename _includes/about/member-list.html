@@ -1,1 +1,26 @@
-member list
+<section id="member-list" class="centered-section">
+	<h1>
+		<span class="teal-underlined">Our Team</span>
+	</h1>
+
+	<div id="member-grid">
+		{% for member in site.data.member_list.members %}
+			<div class="member-card">
+				<img src="{{ site.baseurl }}/img/members/{{ member.name }}.png" alt="{{ member.name }}'s Photo">
+				<h3>
+					<a href="#" class="teal-underlined">
+						{{member.name}}
+					</a>
+				</h3>
+				<small>Class of {{ member.year }}</small>
+				<p>{{ member.role }}</p>
+			</div>
+		{% endfor %}
+	</div>
+
+	<h3>
+		Want to join us? 
+		<a href="" class="teal-underlined">Apply!</a>
+	</h3>
+	
+</section>
