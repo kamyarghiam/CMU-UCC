@@ -5,10 +5,10 @@
 		<img src="{{ site.baseurl }}/img/logo_white.png">
 	</a>
 	<div id="nav-links">
-		<a href="{{ site.baseurl }}/about.html">About</a>
-		<a href="{{ site.baseurl }}/campus.html">Campus Involvement</a>
-		<a href="{{ site.baseurl }}/projects.html">Client Projects</a>
-		<a href="{{ site.baseurl }}/contact.html">Contact</a>
-		<a href="{{ site.baseurl }}/apply.html">Apply</a>
+		{% for page in site.pages %}
+			{% if page.title and page.title != "Home" %}
+				<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
 	</div>
 </nav>

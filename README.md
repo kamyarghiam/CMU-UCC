@@ -4,9 +4,24 @@ Designed and built by Sean Park
 
 --
 
-# How to serve website locally
+# For Maintainer:
 
-Insert content here.
+--
+
+--
+
+## How to customize site data
+
+### Home
+
+
+
+--
+
+## How to customize form
+
+- changing email address
+- adding new fields
 
 --
 
@@ -14,8 +29,16 @@ Insert content here.
 
 Insert content here
 
+--
+
+# For Developers:
+
+## How to serve website locally
+
+Insert content here.
 
 --
+
 
 Built on top of a blank Jekyll theme by Garrett Boatman: https://github.com/garrettboatman/Blank-Theme-Jekyll
 
