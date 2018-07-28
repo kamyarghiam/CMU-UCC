@@ -1,15 +1,19 @@
-<!-- todo: make mobile responsive -->
+<!-- todo: add animation to mobile -->
 
 <nav>
 	<a class="logo" href="{{ site.baseurl }}/">
 		<img src="{{ site.baseurl }}/img/logo_white.png">
 	</a>
 	{% include nav_links.html %}
-	<a class="nav-toggle">yuh</a>
+	<a class="nav-toggle">
+		<i class="fas fa-bars"></i>
+	</a>
 </nav>
 
 <div id="nav-screen">
-	<a class="nav-toggle">×</a>
+	<a class="nav-toggle">
+		<i class="fas fa-times"></i>
+	</a>
 	{% include nav_links.html %}
 </div>
 

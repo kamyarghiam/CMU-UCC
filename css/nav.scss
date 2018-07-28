@@ -26,8 +26,11 @@ nav {
 
 	ul {
 		position: absolute;
-		top: 5px;
+		top: 0;
 		right: 0;
+		padding: 0;
+		margin: 10px 0;
+		line-height: 50px;
 		li {
 			display: inline-block;
 			margin: 0 30px;
