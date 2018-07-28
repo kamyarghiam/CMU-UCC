@@ -3,23 +3,76 @@
 
 @import 'variables';
 
+body.nav-open {
+	overflow: hidden;
+}
+
 nav {
 	background: $light-teal;
-	padding: 1vw;
 	color: white;
+	padding: 1vw;
 
 	.logo img {
 		width: 50px;
 	}
 
-	#nav-links {
+	.nav-toggle {
 		position: absolute;
-		right: 0;
 		top: 0;
-		padding: 1vw;
+		right: 0;
+		margin: 20px;
+		display: none;
+	}
 
-		> a {
-			margin-left: 2vw;
+	ul {
+		position: absolute;
+		top: 5px;
+		right: 0;
+		li {
+			display: inline-block;
+			margin: 0 30px;
+		}
+	}
+}
+
+#nav-screen {
+	// position
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+
+	// style
+	text-align: center;
+	padding: 3vw;
+	background: $light-teal;
+	color: white;
+	ul {
+		font-size: 3vw;
+		padding: 0;
+		list-style: none;
+		li {
+			margin: 5vh 0;
+		}
+	}
+
+	// visibility
+	display: none;
+
+	&.visible {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	nav {
+		ul {
+			display: none;
+		}
+		.nav-toggle {
+			display: block;
 		}
 	}
 }
