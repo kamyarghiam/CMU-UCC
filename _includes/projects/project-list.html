@@ -1,47 +1,28 @@
 <!-- todo: create modals or separate pages for more project details -->
 
-<section id="current-project-list" class="project-list">
+{% assign projects = site.projects | where: "status", include.status %}
+
+<section id="{{ include.status }}-project-list" class="project-list">
 	<div class="project-list-col project-list-left">
 		<h2>
-			<span class="teal-underlined">Current Projects</span>
+			<span class="teal-underlined">{{ include.status | capitalize }} Projects</span>
 		</h2>
 	</div>
 	<div class="project-list-col project-list-right">
-		{% for project in site.data.project_list.current_projects %}
-			<div class="project">
-				<img src="{{ site.baseurl }}/img/logo_teal.png">
-				<div class="project-info">
-					<h3>{{ project.name }}</h3>
-					<p>
-						{{ project.about }}
-					</p>
-					<a href="#">View Details <span>>></span></a>
+		{% for project in projects %}
+				<div class="project">
+					<img src="{{ site.baseurl }}/img/logo_teal.png">
+					<div class="project-info">
+						<h3>{{ project.name }}</h3>
+						<p>
+							{{ project.about | markdownify }}
+						</p>
+						<a href="{{ project.url }}">View Details <span>>></span></a>
+					</div>
 				</div>
-			</div>
-		{% endfor %}
-	</div>
-</section>
-
-<hr/>
-
-<section id="past-project-list" class="project-list">
-	<div class="project-list-col project-list-left">
-		<h2>
-			<span class="teal-underlined">Past Projects</span>
-		</h2>
-	</div>
-	<div class="project-list-col project-list-right">
-		{% for project in site.data.project_list.past_projects %}
-			<div class="project">
-				<img src="{{ site.baseurl }}/img/logo_teal.png">
-				<div class="project-info">
-					<h3>{{ project.name }}</h3>
-					<p>
-						{{ project.about | markdownify }}
-					</p>
-					<a href="#">View Details <span>>></span></a>
-				</div>
-			</div>
+		{% else %}
+			<h2>The club is currently not working on any projects.</h2>
+			<a href="{{ site.baseurl }}/contact.html">Work with us!</a>
 		{% endfor %}
 	</div>
 </section>

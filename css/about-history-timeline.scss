@@ -10,6 +10,7 @@
 	.history-milestone {
 		flex: 1 0 0;
 		border-bottom: 1px solid $border-grey;
+		color: $text-grey;
 
 		&:last-child {
 			border-bottom: 2px dotted $border-grey;
@@ -18,7 +19,6 @@
 		&:before {
 			content: '';
 			border: 2px solid $dark-teal;
-			bottom: -10px;
 		}
 
 		&.selected {
@@ -27,6 +27,13 @@
 
 			&:before {
 				border-color: $light-teal;
+			}
+		}
+
+		a {
+			transition: 0.3s all ease;
+			&:hover {
+				color: black;
 			}
 		}
 	}

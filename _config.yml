@@ -5,10 +5,12 @@ url: "cmuucc.com" # The base hostname & protocol for your site. Use it if you ne
 
 baseurl: /CMU-UCC
 
-# Social
+collections:
+  initiatives:
+    output: true
+  projects:
+    output: true
 
-logo: /img/logo.png
-facebook: cmuucc
 
 # Use this for production
 #sass:

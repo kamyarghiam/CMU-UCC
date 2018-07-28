@@ -12,12 +12,15 @@
 	</div>
 
 	<div class="page-intro-col" id="page-intro-right">
-		{% for initiative in site.data.campus_initiative_list.initiatives %}
+		{% for initiative in site.initiatives %}
 
-			<a href="#{{ initiative.name }}">
-				<span>>></span> {{initiative.name }}
+			<a href="{{ initiative.url }}">
+				<span>>></span> {{ initiative.name }}
 			</a>
 
 		{% endfor %}
+		<a href="{{ site.baseurl }}/contact.html">
+				<span>>></span> Work With Us
+			</a>
 	</div>
 </section>

@@ -1,7 +1,7 @@
 <!-- todo: modals or separate pages for initiatives -->
 
 <section class="campus-initiative-list">
-	{% for initiative in site.data.campus_initiative_list.initiatives %}
+	{% for initiative in site.initiatives %}
 
 		<div id="{{ initiative.name }}" class="initiative-section">
 			<img src="{{ site.baseurl }}/img/initiatives/{{ initiative.name }}.png"
@@ -12,8 +12,8 @@
 						{{ initiative.name }}
 					</span>
 				</h1>
-				<p>{{ initiative.blurb | markdownify }}</p>
-				<a href="#{{ initiative.name }}">
+				<p>{{ initiative.blurb }}</p>
+				<a href="{{ initiative.url }}">
 					<span>>></span> View Details
 				</a>
 			</div>

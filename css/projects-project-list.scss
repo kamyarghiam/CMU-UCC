@@ -3,8 +3,7 @@
 
 @import 'variables';
 
-#current-project-list,
-#past-project-list {
+.project-list {
 	display: flex;
 
 	.project-list-col {
