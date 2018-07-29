@@ -32,15 +32,14 @@
 	    .icon {
 	      border-radius: 50%;
 	      height: 5em;
+	      line-height: 6em; // height + half of i font size
 	      width: 5em;
 	      color: white;
 	      padding: 0;
 	      display: inline-block;
-	      background: $bright-teal;
+	      background: $light-teal;
 	      i {
 	      	font-size: 2em;
-	      	margin: 0 auto;
-	      	display: block;
 	      }
 	    }
 	    .time {
