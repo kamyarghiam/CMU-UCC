@@ -5,4 +5,4 @@ blurb: This is the Case Competition blurb.
 
 ---
 
-Case Competition test
+# Case Competition test
