@@ -33,3 +33,19 @@
 		}
 	}
 }
+
+@media screen and (max-width: 900px) {
+	#member-list {
+		#member-grid {
+			display: block;
+			.member-card {
+				display: block;
+				max-width: 50%;
+				margin: 30px auto;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

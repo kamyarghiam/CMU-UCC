@@ -18,7 +18,6 @@
 		flex: 3 0 0;
 		
 		h1 {
-			font-size: 3vw;
 			margin-bottom: 3vw;
 		}
 
@@ -37,5 +36,11 @@
 				color: $bright-teal;
 			}
 		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#page-intro {
+		display: block;
 	}
 }

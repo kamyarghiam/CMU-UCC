@@ -19,3 +19,20 @@
 		padding: 0 3vw;
 	}
 }
+
+@media screen and (max-width: 900px) {
+	.campus-initiative-list {
+		.initiative-section {
+			display: block;
+			img {
+				width: 100%;
+			}
+			.initiative-info {
+				padding: 0;
+				h3 {
+					margin: 10px 0;
+				}
+			}
+		}
+	}
+}

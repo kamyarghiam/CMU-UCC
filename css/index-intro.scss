@@ -8,13 +8,12 @@
 
 	.index-intro-col {
 		flex: 1;
-		text-align: right;
 	}
 
 	#index-intro-left {
+		text-align: right;
 		
-		h1 {
-			font-size: 3vw;
+		h2 {
 			margin-bottom: 3vw;
 		}
 
@@ -49,5 +48,20 @@
 
 	#link-div {
 		margin: 0 3vw 3vw 3vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#index-intro {
+		display: block;
+
+		#index-intro-left {
+			text-align: left;
+		}
+
+		.card {
+			text-align: left;
+			margin: 30px 0;
+		}
 	}
 }

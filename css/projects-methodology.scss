@@ -76,9 +76,26 @@
 	      top: 0;
 	      left: -4.35em;
 	      z-index: -1;
-	    }
-	    
+	    } 
 	  }
-	  
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#project-methodology {
+		.item {
+			display: block;
+			width: 90%;
+			margin: 0 auto;
+
+			.image {
+				width: 80%;
+				margin: 0 auto;
+				> div:after {
+					left: 0;
+					width: 100%;
+				}
+			}
+		}
 	}
 }
