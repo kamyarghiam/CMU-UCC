@@ -1,0 +1,10 @@
+# Make sure that the member's photo file name matches the member's name.
+# Make sure the member's photo is a square PNG.
+
+steps:
+  - title: Step 1
+    blurb: This is step 1.
+  - title: Step 2
+    blurb: This is step 2.
+  - title: Step 3
+    blurb: This is step 3.

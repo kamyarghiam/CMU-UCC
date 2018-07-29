@@ -6,6 +6,13 @@
 #page-intro {
 	display: flex;
 
+	ul {
+		padding: 0;
+		li {
+			list-style: none;
+		}
+	}
+
 	.page-intro-col {
 		padding: 3vw;
 		h2, p:not(:last-child){

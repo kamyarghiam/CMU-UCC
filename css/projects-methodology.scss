@@ -29,12 +29,21 @@
 	      }
 	    }
 	    
-	    img {
+	    .icon {
 	      border-radius: 50%;
 	      height: 5em;
-	      border: 0.35em solid $bright-teal;
+	      width: 5em;
+	      color: white;
+	      padding: 0;
+	      display: inline-block;
+	      background: $bright-teal;
+	      i {
+	      	font-size: 2em;
+	      	margin: 0 auto;
+	      	display: block;
+	      }
 	    }
-	    span {
+	    .time {
 	      display: block;
 	      clear: both;
 	      padding: 0.25em 0;
