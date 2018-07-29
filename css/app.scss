@@ -19,6 +19,7 @@ Keeping a separate scss file for each _includes file
 
 @import 'about-member-list.css';
 @import 'about-history-timeline.css';
+@import 'about-org.css';
 
 @import 'projects-project-list.css';
 @import 'projects-methodology.css';
@@ -26,5 +27,3 @@ Keeping a separate scss file for each _includes file
 @import 'campus-initiatives.css';
 
 @import 'contact-form.css';
-
-@import 'apply-org.css';
