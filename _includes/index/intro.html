@@ -1,33 +1,33 @@
 <section id="index-intro">
 	<div class="index-intro-col" id="index-intro-left">
 		<h2>
-			We're the consulting club at Carnegie Mellon.
+			{{ page.intro_heading }}
 		</h2>
 		<div class="card">
 			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<h2>Some content here.</h2>
-			<p>And some here too.</p>
+			<h2>{{ page.card1_heading }}</h2>
+			<p>{{ page.card1_subheading }}</p>
 		</div>
 		<div class="card">
 			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<h2>Some content here.</h2>
-			<p>And some here too.</p>
+			<h2>{{ page.card2_heading }}</h2>
+			<p>{{ page.card2_subheading }}</p>
 		</div>
 	</div>
 	<div class="index-intro-col" id="index-intro-right">
 		<div class="card">
 			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<h2>Some content here.</h2>
-			<p>And some here too.</p>
+			<h2>{{ page.card3_heading }}</h2>
+			<p>{{ page.card3_subheading }}</p>
 		</div>
 		<div class="card">
 			<img src="{{ site.baseurl }}/img/logo_teal.png">
-			<h2>Some content here.</h2>
-			<p>And some here too.</p>
+			<h2>{{ page.card4_heading }}</h2>
+			<p>{{ page.card4_subheading }}</p>
 		</div>
 		<div id="link-div">
 			<a href="{{ site.baseurl}}/about.html" class="teal-underlined">
-				Come check out who we are. &#8594;
+				{{ page.about_link_text }} &#8594;
 			</a>
 		</div>
 	</div>
