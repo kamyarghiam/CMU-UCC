@@ -1,7 +1,8 @@
 <ul id="nav-links">
 	{% for page in site.pages %}
-		{% if page.title and page.title != "Home" %}
+		{% if page.title and page.title != "Home" and page.title != "Apply" %}
 			<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
 		{% endif %}
 	{% endfor %}
+	<li><a href="https://goo.gl/forms/Iw0sJTaIgNvCDJPj1" target="_blank">Apply</a></li>
 </ul>
