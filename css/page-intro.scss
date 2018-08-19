@@ -6,6 +6,10 @@
 #page-intro {
 	display: flex;
 
+	img {
+		margin: 1vh 0;
+	}
+
 	ul {
 		padding: 0;
 		li {
@@ -16,8 +20,8 @@
 	.page-intro-col {
 		padding: 3vw;
 		h2, p:not(:last-child){
-			margin-top: 0;
-			margin-bottom: 8vh;
+			margin-top: 1vh;
+			margin-bottom: 3vh;
 		}
 	}
 
@@ -25,7 +29,7 @@
 		flex: 3 0 0;
 		
 		h1 {
-			margin-bottom: 3vw;
+			margin-bottom: 3vh;
 		}
 
 		.card {
