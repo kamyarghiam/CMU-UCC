@@ -1,10 +1,17 @@
-# Make sure that the member's photo file name matches the member's name.
-# Make sure the member's photo is a square PNG.
-
 steps:
-  - title: Step 1
-    blurb: This is step 1.
-  - title: Step 2
-    blurb: This is step 2.
-  - title: Step 3
-    blurb: This is step 3.
+  - title: Apply for Probono Project
+    icon: fas fa-clipboard-list
+    time: APR - AUG
+    blurb: UCC is always open to working with start-ups, non-profits, and other organizations on probono consulting engagements. To apply, email us at ucc.cmu@gmail.com with a description of your organization and a short list of potential projects. The scope / timeline definition stage will begin when the application is received. 
+  - title: Scope / Timeline Definition
+    icon: far fa-calendar-alt
+    time: APR - AUG
+    blurb: UCC representatives will work with you to outline the scope of work and milestones for each deliverable to ensure that the project can be completed in a timely, professional manner. During this stage, UCC may be in contact with multiple organizations; the project work begins in September once members have returned to campus.
+  - title: Project Delivery
+    icon: fas fa-cogs
+    time: SEPT - DEC
+    blurb: A dedicated team of UCC consultants will work on the project as defined in scope according to the established timeline, with weekly meetings and demos of progress. UCC prioritizes client satisfaction and professionalism above all else.
+  - title: Extension / Reflection
+    icon: fas fa-chart-line
+    time: DEC
+    blurb: Although most projects are run in the Fall semester, UCC often extends projects into the Spring semester. As a student organization, UCC values clients' feedback and would love to have a conversation regarding the engagement.
