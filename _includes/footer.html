@@ -2,7 +2,25 @@
 	<div id="footer-content">
 		<a class="logo" href="{{ site.baseurl }}/">
 			<img src="{{ site.baseurl }}/img/logo_white.png">
+
 		</a>
 	</div>
-	<div id="bottom-bar"></div>
+	<div class = "flex-container">
+		{% for onepage in site.pages %} 
+		{% if onepage.layout == "default" and onepage.title != "Home" and onepage.title != "Projects"%}
+          {% if onepage.title == "Campus Involvement"%}
+          <div>
+            <a href="campus.html">{{ onepage.title }}</a>
+            <a>  . </a>
+        </div>
+			{% endif %}
+			{% if onepage.title != "Campus Involvement" %}
+			<div>
+			<a href="{{ onepage.title }}">{{ onepage.title }}</a>
+            <a>  . </a>
+        	</div>
+		  {% endif %}
+		  {% endif %}
+		{% endfor %}
+	</div>
 </footer>
