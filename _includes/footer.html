@@ -1,8 +1,43 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <footer>
 	<div id="footer-content">
+		<div class = "container">
+		<div class = "row">
+		<div class = "col-sm-4">
 		<a class="logo" href="{{ site.baseurl }}/">
-			<img src="{{ site.baseurl }}/img/logo_white.png">
-		</a>
+			<img src="{{ site.baseurl }}/img/logo_white.png"></a>
+			<br></br>
+		<p> Carnegie Mellon University </br>
+		Undergraduate Consulting Club </br>
+		Ⓒ 2018 UCC </br>
+	</p>
+
+		
 	</div>
-	<div id="bottom-bar"></div>
+		{% for onepage in site.pages %} 
+		{% if onepage.layout == "default" and onepage.title != "Home" and onepage.title != "Projects"%}
+          {% if onepage.title == "Campus Involvement"%}
+          <div class = "col-sm-2">
+            <a href="campus.html">Campus</a>
+        </div>
+			{% endif %}
+			{% if onepage.title != "Campus Involvement" %}
+			<div class = "col-sm-2">
+			<a href="{{ onepage.title }}">{{ onepage.title }}</a>
+
+        	</div>
+		  {% endif %}
+		  {% endif %}
+		{% endfor %}
+	</div>
+	</div>
+	</div>
+
 </footer>
+
