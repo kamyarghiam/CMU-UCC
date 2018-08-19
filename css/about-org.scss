@@ -8,3 +8,31 @@
 		width: 100px;
 	}
 }
+
+#ucc-intro {
+	display: flex;
+	flex-wrap: wrap;
+
+	.what-we-do-item {
+		flex: 1 0 30%;
+		max-width: 33%;
+		padding: 2%;
+		margin-top: 3vh;
+		.img-container {
+			height: 64px;
+			margin-bottom: 15px;
+			img {
+				max-width: 80px;
+			}
+		}
+		h3 {
+			color: $dark-teal;
+		}
+		p {
+			width: 80%;
+			margin: 0 auto;
+			padding-top: 15px;
+			text-align: justify;
+		}
+	}
+}
