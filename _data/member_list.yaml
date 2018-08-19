@@ -6,8 +6,8 @@ members:
     role: President
     year: 2019
     experience: 
-      - Business Technology Analyst at Deloitte Digital
       - Software Engineer at MAYA BCG
+      - Business Technology Analyst at Deloitte Digital
   - name: Andres Cano
     role: Vice President
     year: 2020
