@@ -12,13 +12,57 @@ members:
     role: Vice President
     year: 2020
     experience:
-      - IBM shit
+      - Intern at BagCorp
+  - name: Deepak Vanjani
+    role: Internal Development Management
+    year: 2019
+    experience: 
+      - Business Analyst intern at tech start up called CircleBack
+      - Consulting intern at PwC
   - name: Jesse Lu
-    role: Strategy Internal Development Lead
+    role: Internal Development Management and Social chair
     year: 2019
+    experience: 
+      - Intern at HBI Solutions, a global healthcare solutions company in Palo Alto
+      - Intern at West Monroe Partners, NY
   - name: Arnav Gupta
-    role: Tech Internal Development Lead
+    role: Internal Development Technology
     year: 2019
-  - name: Ivori Liu
+    experience: 
+      - Software engineer intern at an Edtech company, Edmodo
+      - SWE Intern at Microsoft in the Flow team.
+  - name: Arnav Jain
+    role: Internal Development Technology
+    year: 2019
+    experience: 
+      - Technology Consulting intern at PwC
+  - name: Samantha Wu
+    role: Consulting academy lead
+    year: 2019
+    experience: 
+      - Business Analyst intern at WhoWhatWhy
+  - name: Ivory Liu
     role: Marketing Lead
     year: 2019
+    experience: 
+      - Intern at Janney Montgomery Scott, Pittsburgh
+  - name: Hudson Graf
+    role: Marketing Lead
+    year: 2020
+    experience: 
+      - 
+  - name: Beata
+    role: Marketing Lead
+    year: 2020
+    experience: 
+      - Intern at Goldman Sachs Operations
+  - name: Kamyar Ghiam
+    role: Corporate relations
+    year: 2021
+    experience: 
+      - 
+  - name: Gun Ho Jung
+    role: Finance and Admin
+    year: 2019
+    experience: 
+      - Intern at RapidRatings
