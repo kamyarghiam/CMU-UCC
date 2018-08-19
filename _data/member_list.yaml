@@ -12,50 +12,50 @@ members:
     role: Vice President
     year: 2020
     experience:
-      - Intern at BagCorp
+      - Business Analyst at BagCorp
   - name: Deepak Vanjani
     role: Internal Development Management
     year: 2019
     experience: 
-      - Business Analyst intern at tech start up called CircleBack
-      - Consulting intern at PwC
+      - Business Analyst at CircleBack
+      - Business Consultant at PwC
   - name: Jesse Lu
-    role: Internal Development Management and Social chair
+    role: Internal Development Lead and Social Chair
     year: 2019
     experience: 
-      - Intern at HBI Solutions, a global healthcare solutions company in Palo Alto
-      - Intern at West Monroe Partners, NY
+      - Business Analyst at HBI Solutions
+      - Business Analyst at West Monroe Partners
   - name: Arnav Gupta
     role: Internal Development Technology
     year: 2019
     experience: 
-      - Software engineer intern at an Edtech company, Edmodo
-      - SWE Intern at Microsoft in the Flow team.
+      - Software Engineer at Edmodo
+      - Software Engineer at Microsoft
   - name: Arnav Jain
     role: Internal Development Technology
     year: 2019
     experience: 
-      - Technology Consulting intern at PwC
+      - Business Technology Consultant at PwC
   - name: Samantha Wu
-    role: Consulting academy lead
+    role: Consulting Academy Lead
     year: 2019
     experience: 
-      - Business Analyst intern at WhoWhatWhy
+      - Business Analyst at WhoWhatWhy
   - name: Ivory Liu
     role: Marketing Lead
     year: 2019
     experience: 
-      - Intern at Janney Montgomery Scott, Pittsburgh
+      - Business Analyst at Janney Montgomery Scott
   - name: Hudson Graf
     role: Marketing Lead
     year: 2020
     experience: 
-      - 
-  - name: Beata
+      -
+  - name: Beata Purvina
     role: Marketing Lead
     year: 2020
     experience: 
-      - Intern at Goldman Sachs Operations
+      - Operations Analyst at Goldman Sachs
   - name: Kamyar Ghiam
     role: Corporate relations
     year: 2021
@@ -65,4 +65,4 @@ members:
     role: Finance and Admin
     year: 2019
     experience: 
-      - Intern at RapidRatings
+      - Business Analyst at RapidRatings
