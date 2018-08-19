@@ -6,19 +6,60 @@ members:
     role: President
     year: 2019
     experience: 
-      - Business Technology Analyst at Deloitte Digital
       - Software Engineer at MAYA BCG
+      - Business Technology Analyst at Deloitte Digital
   - name: Andres Cano
     role: Vice President
     year: 2020
     experience:
-      - IBM shit
+      - Business Analyst at BagCorp
   - name: Jesse Lu
-    role: Strategy Internal Development Lead
+    role: Internal Development Lead and Social Chair
     year: 2019
+    experience: 
+      - Business Analyst at HBI Solutions
+      - Business Analyst at West Monroe Partners
+  - name: Deepak Vanjani
+    role: Internal Development Management
+    year: 2019
+    experience: 
+      - Business Analyst at CircleBack
+      - Business Consultant at PwC
   - name: Arnav Gupta
-    role: Tech Internal Development Lead
+    role: Internal Development Technology
     year: 2019
+    experience: 
+      - Software Engineer at Edmodo
+      - Software Engineer at Microsoft
+  - name: Arnav Jain
+    role: Internal Development Technology
+    year: 2019
+    experience: 
+      - Business Technology Consultant at PwC
+  - name: Gunho Jung
+    role: Finance and Admin
+    year: 2019
+    experience: 
+      - Business Analyst at RapidRatings
+  - name: Samantha Wu
+    role: Consulting Academy Lead
+    year: 2020
+    experience: 
+      - Business Analyst at WhoWhatWhy
   - name: Ivori Liu
     role: Marketing Lead
-    year: 2019
+    year: 2020
+    experience: 
+      - Business Analyst at Janney Montgomery Scott
+  - name: Hudson Graf
+    role: Marketing Lead
+    year: 2020
+    experience: 
+  - name: Beata Purvina
+    year: 2020
+    experience: 
+      - Operations Analyst at Goldman Sachs
+  - name: Kamyar Ghiam
+    role: Event Logistics Lead
+    year: 2021
+    experience: 
