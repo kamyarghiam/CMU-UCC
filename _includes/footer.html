@@ -1,8 +1,37 @@
 <footer>
 	<div id="footer-content">
+		
+		<div class = "row">
+		<div class = "column">
 		<a class="logo" href="{{ site.baseurl }}/">
-			<img src="{{ site.baseurl }}/img/logo_white.png">
-		</a>
+			<img src="{{ site.baseurl }}/img/logo_white.png"></a>
+			<br></br>
+		<p> Carnegie Mellon University </br>
+		Undergraduate Consulting Club </br>
+		Ⓒ 2018 UCC </br>
+	</p>
+</div>
+		
+	
+		{% for onepage in site.pages %} 
+		{% if onepage.layout == "default" and onepage.title != "Home" and onepage.title != "Projects"%}
+          {% if onepage.title == "Campus Involvement"%}
+          <div class = "column">
+            <a href="campus.html">Campus</a>
+        </div>
+			{% endif %}
+			{% if onepage.title != "Campus Involvement" %}
+			<div class = "link column">
+			<a href="{{ onepage.title }}">{{ onepage.title }}</a>
+
+        	</div>
+		  {% endif %}
+		  {% endif %}
+		{% endfor %}
+	
 	</div>
-	<div id="bottom-bar"></div>
+	</div>
+
+
 </footer>
+
