@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: initiative
 name: Case Competition
 blurb: This is the Case Competition blurb.
 
 ---
 
-# Case Competition test
+# Main Content
+
+This is some test content. Add links to resources, announce competition winners, etc.

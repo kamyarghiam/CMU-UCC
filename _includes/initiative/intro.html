@@ -1,0 +1,25 @@
+<section id="page-intro">
+	<div class="page-intro-col" id="page-intro-left">
+		<h1>
+			<span class="teal-underlined">{{ page.title | titleize }}</span>
+		</h1>
+
+		<img src="{{ site.baseurl }}/img/initiatives/{{ page.title | titleize }}.png"
+				 alt="{{ page.title | titleize }}" />
+
+		<p>
+			{{ page.blurb }}
+		</p>
+	</div>
+
+	<div class="page-intro-col" id="page-intro-right">
+		<a href="{{ site.baseurl }}/campus#consulting-academy"><span>>></span> Consulting Academy</a>
+		{% for initiative in site.initiatives %}
+			{% if initiative.title != page.title %}
+				<a href="/{{ site.baseurl }}/{{ initiative.url }}">
+					<span>>></span> {{ initiative.title | titleize }}
+				</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
